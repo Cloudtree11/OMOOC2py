@@ -2,7 +2,7 @@
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "disqus_BVAzJOv132"
+            "shortName": "Cloudtree"
 		}
     }
 }
