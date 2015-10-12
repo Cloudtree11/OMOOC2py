@@ -2,7 +2,7 @@
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
-            "BVAzJOv132": "Openmindclub"
+            "shortName": "BVAzJOv132"
 		}
     }
 }
