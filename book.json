@@ -5,8 +5,8 @@
 
     "plugins": ["disqus"],
     "pluginsConfig": {
-		"disqus": {
-        "disqus_BVAzJOv132": "Openmindclub"
+        "disqus": {
+            "disqus_BVAzJOv132": "Openmindclub"
 		}
     }
 }
