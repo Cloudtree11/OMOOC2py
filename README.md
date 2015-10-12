@@ -8,3 +8,5 @@
 - 一个 配合课程每周开发任务的目录树
 
 Hello Gitbook!
+
+Try again, hello BitBook for GitHub!
