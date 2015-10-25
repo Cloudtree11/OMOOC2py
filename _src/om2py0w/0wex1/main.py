@@ -1,5 +1,5 @@
-# _*_ coding: utf8 _*_
+#!/usr/bin/env python
+# -*- coding: utf8 -*-
+import MyDailyCLI
 
-if __name__ == '__main__':
-    import MyDailyCLI
-    MyDailyCLI.entrance()
+MyDailyCLI.entrance()
