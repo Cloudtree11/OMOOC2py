@@ -2,6 +2,7 @@
 # -*- coding: utf8 -*-
 
 from Tkinter import *
+from MyDailyCLI import *
 
 class MyDailyTk(Frame):
     def __init__(self, master=None):
@@ -13,15 +14,23 @@ class MyDailyTk(Frame):
     def createEntry(self):
         self.Input = Entry(self)
         self.Input.pack(fill=X)
+        self.input_content = StringVar()
+        self.Input["textvariable"] = self.input_content
+        self.Input.bind('<Key-Return>',
+                        entrance(self.input_content))
+        
         
 
     def createLabel(self):
         self.Content = Label(self)
-        self.Content["text"] = "Date:\nNow\nTest\n"
         self.Content.pack(fill=Y, expand=1)
+        self.output = StringVar()
+        self.Content["textvariable"] = self.output
+        print_last_f(self.output)
 
 root = Tk()
 #app = Application(master=root)
 app = MyDailyTk(master=root)
+app.master.title("MyDailyTk")
 app.mainloop()
 root.destory()
